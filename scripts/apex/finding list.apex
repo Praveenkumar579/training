@@ -2,7 +2,7 @@
     a=length(name);
     for(int i=0;i<a;i++)
     {
-        if(list[i]=='Aakriti')
+        if(name[i]=='Aakriti')
         {
             return 1;
         }
