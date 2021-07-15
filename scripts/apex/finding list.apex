@@ -1,5 +1,5 @@
-    list<String< name=new list<String>{'veena','Aakriti','abhiti','amit','madav'};
-    a=length(list);
+    list<String> name=new list<String>{'veena','Aakriti','abhiti','amit','madav'};
+    a=length(name);
     for(int i=0;i<a;i++)
     {
         if(list[i]=='Aakriti')
