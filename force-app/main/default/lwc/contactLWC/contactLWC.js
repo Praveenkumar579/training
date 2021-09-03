@@ -13,4 +13,4 @@ export default class ContactsLWC extends LightningElement {
             console.log(error)
         });
     }
-} 
+}
