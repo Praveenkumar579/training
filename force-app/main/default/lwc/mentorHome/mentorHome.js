@@ -3,8 +3,7 @@ import { NavigationMixin } from 'lightning/navigation';
 import getContactsApex from '@salesforce/apex/mangerController.getContacts'
 import getemployeeApex from '@salesforce/apex/MentorController.getContacts'
 
-
-export default class managerHome extends NavigationMixin(LightningElement) {
+export default class MentorHome extends NavigationMixin(LightningElement) {
     @wire(getContactsApex) wiredContacts1; //These will be automatically available if successful
     getContactsFromSalesforce() {
         getContactsApex()

@@ -1,9 +1,5 @@
 <template>
     <lightning-tabset variant="scoped">
-        <lightning-tab label="Mentor and Employee">
-            <lightning-record-edit-form object-api-name="Mentor">
-            </lightning-record-edit-form>
-        </lightning-tab>
         <lightning-tab label="User Enrollment">
             <lightning-card title="User Enrollment"
                 icon-name="custom:custom45">
@@ -40,9 +36,9 @@
                     <b>Onboarding Step</b>
                     <lightning-button class='slds-float_right' label=" Add Sales and Marketing Step" onclick={navigateToBusiness}>&emsp; &emsp;  </lightning-button>  
                     <lightning-button class='slds-float_right' label="Add Business Step" onclick={navigateTosales}> </lightning-button>
-                
                 </div>  
             </lightning-card>
+        
         </lightning-tab>
-    </lightning-tabset>
+    </lightning-tabset>   
 </template>
