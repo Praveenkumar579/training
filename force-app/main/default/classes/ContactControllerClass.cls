@@ -3,7 +3,7 @@ public with sharing class ContactControllerClass {
 
     }
     @AuraEnabled
-    Public static List<Contact> showContacts()
+    Public static List<Contact> getContacts()
     {
         List<Contact> contacts = [select Id, Name, Email from Contact];
         
